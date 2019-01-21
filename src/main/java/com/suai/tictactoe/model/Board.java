@@ -36,7 +36,7 @@ public class Board {
                 }
             }
 
-            if (numTrueToLeft == 5 || numTrueToRight == 5 || numTrueToRightMirror == 5 || numTrueToLeftMirror == 5){
+            if (numTrueToLeft == 10 || numTrueToRight == 10 || numTrueToRightMirror == 10 || numTrueToLeftMirror == 10){
                 return true;
             }
         }
@@ -59,7 +59,7 @@ public class Board {
                 }
             }
 
-            if (numTrueCols == 5 || numTrueRosw == 5) {
+            if (numTrueCols == 10 || numTrueRosw == 10) {
                 return true;
             }
         }
